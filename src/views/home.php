@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Muaz's Portfolio</title>
+  <title><?= $data['title'] ?></title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -28,6 +28,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
@@ -55,7 +57,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Muaz Azmen</h1>
+      <h1><?= $data['name'] ?></h1>
       <p>I'm <span class="typed"
           data-typed-items="Full-stack Developer, Software Engineer, Gamer, Hiker, Footballer"></span>
       </p>

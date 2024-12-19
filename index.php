@@ -1,7 +1,7 @@
 <?php
-require_once 'core/App/php';
-require_once 'core/Controller.php';
-require_once 'config/database.php';
+require_once 'src/core/App.php';
+require_once 'src/core/Controller.php';
+require_once 'src/core/Model.php';
+require_once './db/database.php';
 
-$app = new App();
-?>
+$app = new App;
