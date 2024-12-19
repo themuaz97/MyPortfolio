@@ -1,4 +1,4 @@
-# Project Overview
+## Project Overview
 
 This portfolio website showcases my personal projects, experiences, education, and certifications. It includes a frontend built with HTML and CSS, 
 and a backend powered by PHP and PostgreSQL, following the MVC design pattern.
@@ -8,23 +8,21 @@ and a backend powered by PHP and PostgreSQL, following the MVC design pattern.
 ```
 .
 ├── assets
-├── db/
-│   └── database.php
+├── db
 ├── src/
-│   ├── controllers/
-│   │   └── home.controller.php
-│   ├── core/
-│   │   ├── App.php
-│   │   ├── Controller.php
-│   │   └── Model.php
+│   ├── controllers
+│   ├── core
 │   ├── models
-│   ├── config/
-│   │   └── contact.php
+│   ├── utils
+│   ├── router
 │   └── views/
+│       ├── admin
+│       ├── auth
+│       ├── components
+│       ├── layout
 │       └── home.php
 ├── .htaccess
-├── index.html
 ├── index.php
-└── Readme.txt
+└── Readme.md
 
 ```
